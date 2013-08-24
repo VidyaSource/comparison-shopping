@@ -1,4 +1,6 @@
-package com.vidyasource.java.tutorial.comparison;
+package com.vidyasource.tutorial.comparison;
+
+import com.vidyasource.tutorial.comparison.Car;
 
 import java.util.Comparator;
 

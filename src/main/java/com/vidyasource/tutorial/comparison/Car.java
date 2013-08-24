@@ -1,6 +1,4 @@
-package com.vidyasource.java.tutorial.comparison;
-
-import java.util.Comparator;
+package com.vidyasource.tutorial.comparison;
 
 public class Car implements Comparable<Car> {
     private int price;

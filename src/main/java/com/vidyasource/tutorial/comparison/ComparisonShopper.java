@@ -1,4 +1,4 @@
-package com.vidyasource.java.tutorial.comparison;
+package com.vidyasource.tutorial.comparison;
 
 import java.util.ArrayList;
 import java.util.Collections;
