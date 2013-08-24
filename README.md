@@ -3,18 +3,21 @@
 ##Description
 
 These are the files that accompany the [Vidya](http://www.vidyasource.com) video tutorial 
-[Comparison Shopping](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A) on the relationship 
-among HTML, CSS, and JavaScript.
+[Comparison Shopping](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A) on how to use Comparable and 
+Comparator to sort collections in Java.
 
 
 ##Intended Audience
 
-Beginners in web design who want to learn the basics of HTML, CSS, and JavaScript and how these technologies fit together.
+Beginners and intermediate programmers in Java who want to learn how to sort collections in Java and particularly 
+the differences between Comparable and Comparator.
 
 ##Instructions
 
-Just download the files and open up *tutorial.html*. Follow along with the tutorial [video](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A)
-or play with the HTML elements, CSS styles, or JavaScript code yourself in your favorite editor to see how the page changes.  
+Just download the files and add them to your favorite Java editor. Follow along with the tutorial [video](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A)
+or play with the code to try different ideas. The project uses [Gradle](http://www.gradle.org/) to be editor-agnostic. 
+If you want to run the code, either get your editor to execute the *gradle* command or do it yourself by navigating
+to the top-level directory and simply typing "gradle" at the prompt.
 
 ##Questions?
 
