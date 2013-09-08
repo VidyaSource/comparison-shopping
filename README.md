@@ -10,7 +10,7 @@ These are the files that accompany the [Vidya](http://www.vidyasource.com) video
 ##Intended Audience
 
 Beginner and intermediate programmers in Java who want to learn how to sort collections using
-*Comparable* and *Comparator* and learn the differences between them in order to use the appropriate one for a given use
+*Comparable* and *Comparator* and to learn the differences between them in order to use the appropriate one for a given use
 case.
 
 ##Instructions
