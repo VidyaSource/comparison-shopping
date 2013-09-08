@@ -21,7 +21,7 @@ to the top-level directory and simply typing "gradle" at the prompt.
 
 ##Questions?
 
-If you have questions, please check out the Vidya [wesbite](http://www.vidyasource.com) or [E-mail](mailto:info@vidyasource.com) us.
+If you have questions, please check out the Vidya [website](http://www.vidyasource.com) or [E-mail](mailto:info@vidyasource.com) us.
 
 Or you can find us pretty much everywhere:
 
