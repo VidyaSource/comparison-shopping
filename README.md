@@ -3,14 +3,15 @@
 ##Description
 
 These are the files that accompany the [Vidya](http://www.vidyasource.com) video tutorial 
-[Comparison Shopping](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A) on how to use Comparable and 
-Comparator to sort collections in Java.
+[Comparison Shopping](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A) on how to use *Comparable* and
+*Comparator* to sort collections in Java.
 
 
 ##Intended Audience
 
-Beginners and intermediate programmers in Java who want to learn how to sort collections in Java and particularly 
-the differences between Comparable and Comparator.
+Beginner and intermediate programmers in Java who want to learn how to sort collections using
+*Comparable* and *Comparator* and learn the differences between them in order to use the appropriate one for a given use
+case.
 
 ##Instructions
 
