@@ -20,6 +20,10 @@ or play with the code yourself to try different ideas. The project uses [Gradle]
 If you want to run the code, either get your editor to execute the *gradle* command or do it yourself by navigating
 to the top-level directory and simply typing "gradle" at the prompt.
 
+Although not strictly necessary for the focus of this tutorial, you do need Java 7 running on your machine for the code to work
+out of the box. If you insist on running with Java 5 or 6, modify the first line of the *main* method in
+*ComparisonShopper.java* to replace the diamond with the more verbose generic collection instantiation.
+
 ##Questions?
 
 If you have questions, please check out the Vidya [website](http://www.vidyasource.com) or [E-mail](mailto:info@vidyasource.com) us.
