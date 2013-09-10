@@ -6,7 +6,7 @@ import java.util.List;
 
 public class ComparisonShopper {
     public static void main(String[] args) {
-        List<Car> cars = new ArrayList<Car>();
+        List<Car> cars = new ArrayList<>();
         cars.add(new Car(75000, "Mercedes"));
         cars.add(new Car(90000, "Audi"));
         cars.add(new Car(65000, "BMW"));
