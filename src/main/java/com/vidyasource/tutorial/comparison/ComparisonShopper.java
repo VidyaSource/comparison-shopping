@@ -6,6 +6,25 @@ import java.util.List;
 
 public class ComparisonShopper {
     public static void main(String[] args) {
+        printCarMakes();
+        printCars();
+    }
+
+    private static void printCarMakes() {
+        List<String> makes = new ArrayList<>();
+        makes.add("Mercedes");
+        makes.add("Audi");
+        makes.add("BMW");
+
+        Collections.sort(makes);
+        System.out.print("Sorted strings: ");
+        for (String make : makes) {
+            System.out.print(make + " ");
+        }
+        System.out.println();
+    }
+
+    private static void printCars() {
         List<Car> cars = new ArrayList<>();
         cars.add(new Car(75000, "Mercedes"));
         cars.add(new Car(90000, "Audi"));
@@ -16,11 +35,13 @@ public class ComparisonShopper {
         for (Car car : cars) {
             System.out.print(car + " ");
         }
-        System.out.println("");
+        System.out.println();
         Collections.sort(cars, new MakeComparator());
         System.out.print("Comparator sorting on make: ");
         for (Car car : cars) {
             System.out.print(car + " ");
         }
     }
+
+
 }
