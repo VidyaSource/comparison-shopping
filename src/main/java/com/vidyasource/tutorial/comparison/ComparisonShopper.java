@@ -8,6 +8,7 @@ public class ComparisonShopper {
     public static void main(String[] args) {
         printCarMakes();
         printCars();
+        printCarsWithComparator();
     }
 
     private static void printCarMakes() {
@@ -26,9 +27,9 @@ public class ComparisonShopper {
 
     private static void printCars() {
         List<Car> cars = new ArrayList<>();
-        cars.add(new Car(75000, "Mercedes"));
-        cars.add(new Car(90000, "Audi"));
-        cars.add(new Car(65000, "BMW"));
+        cars.add(new Car(105000, "Mercedes"));
+        cars.add(new Car(93000, "Audi"));
+        cars.add(new Car(85000, "BMW"));
 
         Collections.sort(cars);
         System.out.print("Natural sorting on price: ");
@@ -36,11 +37,19 @@ public class ComparisonShopper {
             System.out.print(car + " ");
         }
         System.out.println();
+    }
+
+    private static void printCarsWithComparator() {
+        List<Car> cars = new ArrayList<>();
+        cars.add(new Car(75000, "Mercedes"));
+        cars.add(new Car(90000, "Audi"));
+        cars.add(new Car(65000, "BMW"));
         Collections.sort(cars, new MakeComparator());
         System.out.print("Comparator sorting on make: ");
         for (Car car : cars) {
             System.out.print(car + " ");
         }
+        System.out.println();
     }
 
 
