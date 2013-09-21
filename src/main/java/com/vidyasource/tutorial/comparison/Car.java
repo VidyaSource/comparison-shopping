@@ -28,10 +28,11 @@ public class Car implements Comparable<Car> {
     @Override
     public int compareTo(Car car) {
         int result = 0;
-        if (price < car.price) {
+        if (car == null) {
+            throw new NullPointerException("Attempted to compare " + this + " to null");
+        } else if (price < car.price) {
             result = -1;
-        }
-        else if (price > car.price) {
+        } else if (price > car.price) {
             result = 1;
         }
 
@@ -43,8 +44,7 @@ public class Car implements Comparable<Car> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) {
             return false;
-        }
-         else {
+        } else {
             return compareTo((Car) o) == 0;
         }
     }
