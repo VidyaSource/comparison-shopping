@@ -1,7 +1,5 @@
 package com.vidyasource.tutorial.comparison;
 
-import com.vidyasource.tutorial.comparison.Car;
-
 import java.util.Comparator;
 
 public class MakeComparator implements Comparator<Car> {
