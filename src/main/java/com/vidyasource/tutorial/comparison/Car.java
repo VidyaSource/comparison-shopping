@@ -27,16 +27,15 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int compareTo(Car car) {
-        int result = 0;
         if (car == null) {
             throw new NullPointerException("Attempted to compare " + this + " to null");
         } else if (price < car.price) {
-            result = -1;
+            return -1;
         } else if (price > car.price) {
-            result = 1;
+            return 1;
         }
 
-        return result;
+        return 0;
     }
 
     @Override
