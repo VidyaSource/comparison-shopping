@@ -8,4 +8,9 @@ public class MakeComparator implements Comparator<Car> {
     public int compare(Car car, Car car2) {
         return car.getMake().compareTo(car2.getMake());
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof MakeComparator;
+    }
 }
