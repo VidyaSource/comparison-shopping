@@ -9,9 +9,9 @@ These are the files that accompany the [Vidya](http://www.vidyasource.com) video
 
 ##Intended Audience
 
-Beginner and intermediate programmers in Java who want to learn how to sort collections using
-*Comparable* and *Comparator* and to learn the differences between them in order to use the appropriate one for a given use
-case.
+This tutorial is for intermediate-level Java developers who want to add comparison and sorting capabilities to the
+custom classes they’ve created for their projects.
+
 
 ##Instructions
 
