@@ -10,7 +10,7 @@ public class Car implements Comparable<Car> {
     }
 
     public int getPrice() {
-        return price;
+        return this.price;
     }
 
     public void setPrice(int price) {
@@ -18,7 +18,7 @@ public class Car implements Comparable<Car> {
     }
 
     public String getMake() {
-        return make;
+        return this.make;
     }
 
     public void setMake(String make) {
@@ -26,12 +26,12 @@ public class Car implements Comparable<Car> {
     }
 
     @Override
-    public int compareTo(Car car) {
-        if (car == null) {
+    public int compareTo(Car otherCar) {
+        if (otherCar == null) {
             throw new NullPointerException("Attempted to compare " + this + " to null");
-        } else if (price < car.price) {
+        } else if (this.price < otherCar.price) {
             return -1;
-        } else if (price > car.price) {
+        } else if (this.price > otherCar.price) {
             return 1;
         }
 
@@ -50,8 +50,8 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int hashCode() {
-        int result = price;
-        result = 31 * result + make.hashCode();
+        int result = this.price;
+        result = 31 * result + this.make.hashCode();
 
         return result;
     }
