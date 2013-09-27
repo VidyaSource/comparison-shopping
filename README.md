@@ -15,14 +15,20 @@ custom classes they’ve created for their projects.
 
 ##Instructions
 
-Just download the files and add them to your favorite Java editor. Follow along with the tutorial [video](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A)
-or play with the code yourself to try different ideas. The project uses [Gradle](http://www.gradle.org/) to be editor-agnostic. 
-If you want to run the code, either get your editor to execute the *gradle* command or do it yourself by navigating
-to the top-level directory and simply typing "gradle" at the prompt.
+Just download the files and view them in your favorite editor. Follow along with the tutorial [video](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A),
+or play with the code yourself to try different ideas.
 
 Although not strictly necessary for the focus of this tutorial, you do need Java 7 running on your machine for the code to work
 out of the box. If you insist on running with Java 5 or 6, modify the first line of the *main* method in
-*ComparisonShopper.java* to replace the diamond with the more verbose generic collection instantiation.
+*ComparisonShopper.java* to replace the diamond with the more verbose [generics](http://docs.oracle.com/javase/tutorial/java/generics/)
+collection instantiation.
+
+To compile and run the code, you can do any of the following:
+* If you have [Gradle](http://www.gradle.org/) installed, either get your [IDE])http://en.wikipedia.org/wiki/Integrated_development_environment)
+to execute the *gradle* command or do it yourself by navigating to the top-level directory and simply typing "gradle" at
+the prompt.
+* Import the code into your IDE and run *main()* in *ComparisonShopper*.
+* If you are really hardcore, compile and run manually as described by [Oracle](http://www.oracle.com/technetwork/java/compile-136656.html).
 
 ##Questions?
 
