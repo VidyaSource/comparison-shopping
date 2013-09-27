@@ -1,5 +1,5 @@
 apply plugin: 'application'
 
-defaultTasks 'clean', 'run'
+defaultTasks 'run'
 
 mainClassName = "com.vidyasource.tutorial.comparison.ComparisonShopper"
