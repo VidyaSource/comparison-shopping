@@ -16,7 +16,6 @@ public class ComparisonShopper {
         makes.add("Mercedes");
         makes.add("Audi");
         makes.add("BMW");
-
         Collections.sort(makes);
         System.out.print("Sorted strings: ");
         for (String make : makes) {
@@ -30,7 +29,6 @@ public class ComparisonShopper {
         cars.add(new Car(105000, "Mercedes"));
         cars.add(new Car(93000, "Audi"));
         cars.add(new Car(85000, "BMW"));
-
         Collections.sort(cars);
         System.out.print("Natural sorting of cars on price: ");
         for (Car car : cars) {
