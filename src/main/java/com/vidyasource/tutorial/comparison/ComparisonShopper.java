@@ -32,7 +32,7 @@ public class ComparisonShopper {
         cars.add(new Car(85000, "BMW"));
 
         Collections.sort(cars);
-        System.out.print("Natural sorting on price: ");
+        System.out.print("Natural sorting of cars on price: ");
         for (Car car : cars) {
             System.out.print(car + " ");
         }
@@ -45,7 +45,7 @@ public class ComparisonShopper {
         cars.add(new Car(90000, "Audi"));
         cars.add(new Car(65000, "BMW"));
         Collections.sort(cars, new MakeComparator());
-        System.out.print("Comparator sorting on make: ");
+        System.out.print("Comparator sorting of cars on make: ");
         for (Car car : cars) {
             System.out.print(car + " ");
         }
