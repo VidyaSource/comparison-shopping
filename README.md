@@ -24,7 +24,7 @@ out of the box. If you insist on running with Java 5 or 6, modify the first line
 collection instantiation.
 
 To compile and run the code, you can do any of the following:
-* If you have [Gradle](http://www.gradle.org/) installed, either get your [IDE])http://en.wikipedia.org/wiki/Integrated_development_environment)
+* If you have [Gradle](http://www.gradle.org/) installed, either get your [IDE](http://en.wikipedia.org/wiki/Integrated_development_environment)
 to execute the *gradle* command or do it yourself by navigating to the top-level directory and simply typing "gradle" at
 the prompt.
 * Import the code into your IDE and run *main()* in *ComparisonShopper*.
