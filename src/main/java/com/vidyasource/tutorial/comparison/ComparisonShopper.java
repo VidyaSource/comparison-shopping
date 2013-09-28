@@ -43,7 +43,7 @@ public class ComparisonShopper {
         cars.add(new Car(93000, "Audi"));
         cars.add(new Car(85000, "BMW"));
         Collections.sort(cars, new MakeComparator());
-        System.out.print("Comparator sorting of cars on make: ");
+        System.out.print("Comparator sorting of cars alphabetically on make: ");
         for (Car car : cars) {
             System.out.print(car + " ");
         }
