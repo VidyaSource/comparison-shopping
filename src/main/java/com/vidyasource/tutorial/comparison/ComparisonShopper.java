@@ -39,9 +39,9 @@ public class ComparisonShopper {
 
     private static void printCarsWithComparator() {
         List<Car> cars = new ArrayList<>();
-        cars.add(new Car(75000, "Mercedes"));
-        cars.add(new Car(90000, "Audi"));
-        cars.add(new Car(65000, "BMW"));
+        cars.add(new Car(105000, "Mercedes"));
+        cars.add(new Car(93000, "Audi"));
+        cars.add(new Car(85000, "BMW"));
         Collections.sort(cars, new MakeComparator());
         System.out.print("Comparator sorting of cars on make: ");
         for (Car car : cars) {
