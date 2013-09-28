@@ -9,20 +9,8 @@ public class Car implements Comparable<Car> {
         this.make = make;
     }
 
-    public int getPrice() {
-        return this.price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
     public String getMake() {
         return this.make;
-    }
-
-    public void setMake(String make) {
-        this.make = make;
     }
 
     @Override
