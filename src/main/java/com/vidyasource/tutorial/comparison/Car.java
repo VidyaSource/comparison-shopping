@@ -17,6 +17,8 @@ public class Car implements Comparable<Car> {
     public int compareTo(Car otherCar) {
         if (otherCar == null) {
             throw new NullPointerException("Attempted to compare " + this + " to null");
+        } else if (!this.getClass().equals(otherCar.getClass())) {
+            throw new ClassCastException("Possible ClassLoader issue. Failed attempt to compare " + this + " to " + otherCar);
         } else if (this.price < otherCar.price) {
             return -1;
         } else if (this.price > otherCar.price) {
