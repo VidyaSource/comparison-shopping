@@ -3,7 +3,7 @@
 ##Description
 
 These are the files that accompany the [Vidya](http://www.vidyasource.com) video tutorial 
-[Comparison Shopping](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A) on how to use *Comparable* and
+[Comparison Shopping](http://www.youtube.com/watch?v=pq0ArQhhWzU) on how to use *Comparable* and
 *Comparator* to sort collections in Java.
 
 
@@ -15,7 +15,7 @@ custom classes they’ve created for their projects.
 
 ##Instructions
 
-Just download the files and view them in your favorite editor. Follow along with the tutorial [video](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A),
+Just download the files and view them in your favorite editor. Follow along with the tutorial [video](http://www.youtube.com/watch?v=pq0ArQhhWzU),
 or play with the code yourself to try different ideas.
 
 Although not strictly necessary for the focus of this tutorial, you do need Java 7 running on your machine for the code to work
